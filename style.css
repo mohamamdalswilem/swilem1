@@ -1,0 +1,186 @@
+
+@media all{
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    header{
+        width: 100%;
+        height: 100px;
+        background-image: linear-gradient(to right ,red,orange);
+    }
+    #logo_bos{
+        width: 25%;
+        height: 100%;
+        float: right;
+        background-color: white;
+    }
+    
+    #h1_id{
+        float: left;
+        line-height: 100px;
+        padding: 0 15px;
+        -webkit-text-stroke: thin rgba(0, 0, 255, 0.637);
+        color: transparent;
+    }
+    #h2_id{
+        height: 100%;
+        border-radius: 50%;
+    }
+    header a{
+        color: black;
+    }
+    nav a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        display: inline-block;
+    }
+    nav li{
+        display: inline-block;
+        line-height: 100px;
+        width: 150px;
+        text-align: center;
+    }
+    nav{
+        width: 75%;
+        text-align: center;
+    }
+    nav a:hover{
+        background-color: white;
+        color: black;
+        height: 100%;
+        width: 100%;
+    }
+    main{
+        width: 100%;
+        height: 450px;
+        background-color: rgb(255,55,55);
+        border-top: 3px solid white;
+        animation-name: changeback;
+        animation-duration: 15s;
+    }
+    aside {
+        width: 30%;
+        height: 100%;
+        background-color: white;
+       text-align: center;
+       float: left;
+    }
+    aside img{
+        width: 90%;
+        height:130px ;
+       
+    }
+    aside h1{
+        padding: 20px 0;
+        border-bottom: 2px solid red;
+    }
+    
+    @keyframes changeback{
+        0%{background-image: linear-gradient(to right ,red,orange); }
+        50%{background-image: linear-gradient(to right ,orange,red);}
+        100%{background-image: linear-gradient(to right ,red,orange);}
+    }
+    #art_id{
+        width: 70%;
+        height: 450px;
+        float: right;
+        position: relative;
+    }
+    #box_id{
+        width: 400px;
+        height: 200px;
+        position: absolute;
+        background-color: #fafafa;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    #box_id h1 {
+        border-bottom: 3px solid red;
+        padding: 15px 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #box_id p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: justify;
+        padding: 15px;
+    }
+    #contact_box{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    #contact_box img{
+        width: 45px;  
+        border-bottom: 2px solid red;
+        padding-bottom: 10px;
+    }
+    #contact_box img:hover{
+        width: 55px;
+        border-bottom: 2px solid black;
+    }
+}
+#f_id{
+    text-align: center;
+    border-top: 5px solid white;
+}
+#f_id img{
+    width: 400px;
+    height: 200px;
+    margin: 10px 5px;
+}
+@media only screen and (min-width:940px) {
+    #logo_bos{
+        width: 35%;
+    }
+   #art_id{
+       width: 65%;
+   }
+   aside {
+       width: 35%;
+   }
+}
+@media only screen and (max-width:940px) {
+    #logo_bos{
+        width: 40%;
+}
+@media only screen and (max-width:800px){
+
+header,main{
+    height: auto;
+    }
+
+#logo_bos{
+    width: 100%;
+    text-align: center;
+}
+#h1_id, #h2_id{
+    float: none;
+}
+span a{
+    text-decoration:none;
+}
+nav,asside{
+    width: 100%;
+}
+article {
+    height: 270px;
+    width: 100%;
+}
+}}
+@media only screen and (orientation:portrait){
+
+}
+@media option (max-width:1050)and(min-width:1070){
+    #logo_bos{
+        
+    }
+}
+
+
+
+
